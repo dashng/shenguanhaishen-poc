@@ -1,0 +1,219 @@
+@CHARSET "UTF-8";
+
+body *{
+	font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+}
+
+@media (min-width: 1200px){
+	.navbar-wrapper > .container, 
+	.slogan-wrapper > .container, 
+	.footer > .container, 
+	.footer-info-wrapper > .container{
+		width: 100% ;
+		padding:0px;
+	}
+}
+
+.navbar-wrapper  li a{
+	background:#fff !important;
+	color:#333 !important;
+	font-size:18px;
+}
+
+.navbar{
+	margin:0px 0px;
+	padding:5px 0px;
+}
+
+.navbar-wrapper .icon-bar{
+	border:1px solid #333;
+}
+
+.nav-hs{
+	border-top:2px solid #c9141d;
+	border-bottom:none;
+	background:#fff;
+}
+
+.nav-top{
+	background:#f5f1f0 !important;
+	height:65px;
+	padding-top:8px;
+	text-align:center;
+}
+
+.tel-info{
+	font-size:16px;
+	font-weight:normal;
+	width:115px;
+	line-height:18px;
+	height:32px;
+	vertical-align:middle;
+}
+
+div.hero{
+	width:100%;
+	margin:0px;
+	padding:0px;	
+}
+
+div.hero > div{
+	overflow:hidden;
+	padding:0px;
+}
+
+div.hero img{
+	margin:0px auto;
+	display:block;
+	width:100%;
+}
+
+div.product  img{
+	width:100%;
+}
+
+div.product .product-banner{
+	color:#970600;
+	font-size:22px;
+	font-weight:normal;
+	height:20px;
+	line-height:48px;
+	white-space:nowrap;
+}
+
+.left-line, .right-line{
+	padding:0px;
+}	
+
+@media (max-width: 1207px){
+	.left-line, .right-line{
+		display:none;
+	}	
+}
+
+ul.products-card, ul.reasons-card{
+	overflow:hidden;
+	margin:8px 0px;
+	padding:0px;
+	text-align: center;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;	
+}
+
+
+ul.products-card li, ul.reasons-card li{
+	list-style:none;
+	float:left;
+	margin: 2px;
+	width: 125px;
+	padding:4px 8px;
+	display: inline-block;
+	-webkit-flex: 1 0;	
+	flex: 1 0;
+	border:2px solid #f4e9e4;
+}
+
+ul.reasons-card{
+	margin:0px;
+}
+
+ul.reasons-card li{
+	margin:1px;
+	padding:0px;
+}
+
+ul.reasons-card li img{
+	width:100%;
+}
+
+ul.products-card li .btn{
+	padding:8px 16px;
+}
+
+ul.products-card li:hover, ul.products-card li:hover h3 {
+	background:#a10500;
+	color:#fff;
+	cursor:pointer;
+}
+
+ul.products-card li:hover button.btn{
+	color:#bc0501;
+}
+
+ul.products-card h3{
+	text-align:left;
+	color:#bc0501;
+}
+
+ul.products-card p{
+	text-align:left;
+}
+
+.slogan-wrapper > .container > .wrapper{
+	height:154px;
+	background:#ececec;
+	margin:4px 0px;
+}
+
+div.title-banner{
+	text-align:center;
+	margin-bottom:12px;
+	background:url('../images/hr.jpg') no-repeat bottom;
+}
+
+.reasons label{
+	height:60px;
+	line-height:60px;
+	color:#970600;
+	font-size:22px;
+	font-weight:normal;
+	white-space:nowrap;
+	text-align:center;
+}
+
+hr.hualifengexian{
+	border-top:2px solid #fac671;
+	border-bottom:1px solid #fff45c;
+}
+
+.color-card{
+	border:1px solid #eee;
+	height:106px;
+	width:100%;
+	margin:8px 0px 12px 0px;
+	line-height:106px;
+	background:#ededed;
+	
+}
+
+.color-card label{
+	font-weight:800;
+	font-size:22px;
+	float:right;
+	padding-right:24px;
+	
+}
+
+.color-card img{
+	width:80px;
+	display:inline-block;
+	margin-left:24px;
+	-moz-border-radius: 12px;
+  	-webkit-border-radius: 12px;
+  	border-radius: 12px;
+}
+
+.color-card-wrapper{
+	padding:1px;
+}
+
+.footer-info{
+	
+	padding:0px;
+}
+
+.footer-info-wrapper{
+	margin-top:-20px;
+}
