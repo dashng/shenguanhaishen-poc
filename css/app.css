@@ -116,18 +116,15 @@ ul.products-card li, ul.reasons-card li{
 	
 }
 
-@media (min-width: 768px){
+@media (max-width: 1207px){
 	ul.products-card li, ul.reasons-card li{
-	list-style:none;
-		float:left;
-		margin: 2px;
-		width: 50%;
-		padding:4px 8px;
-		display: inline-block;
-		-webkit-flex: 1 0;	
-		flex: 1 0;
-		border:2px solid #f4e9e4;
-		
+		width: 25%;
+	}
+}
+
+@media (min-width: 750px){
+	ul.products-card li, ul.reasons-card li{
+		width: 100%;
 	}
 }
 
