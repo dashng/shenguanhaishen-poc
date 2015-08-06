@@ -217,3 +217,24 @@ hr.hualifengexian{
 .footer-info-wrapper{
 	margin-top:-20px;
 }
+
+ul.footer-links{
+	display:block;
+	margin:0px auto;
+	text-align:center;
+}
+
+ul.footer-links li{
+	margin-left:-2px;
+	list-style:none;
+	margin-top:25px;
+	border-left:1px solid #fff;
+	font-size:16px;
+	padding:2px 18px;
+	color:#fff;
+	display:inline-block;
+}
+
+ul.footer-links li:nth-child(1){
+	border-left:none;
+}
