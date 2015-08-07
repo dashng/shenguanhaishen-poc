@@ -131,8 +131,12 @@ ul.products-card, ul.reasons-card{
 }
 
 @media (max-width: 768px){
-	ul.products-card li, ul.reasons-card li{
-		display: block;
+	ul.reasons-card li{
+		width:50%;
+		
+	}
+	ul.reasons-card li.even{
+		margin-right:-50%;
 		
 	}
 }
