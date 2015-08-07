@@ -91,30 +91,53 @@ div.product .product-banner{
 	}	
 }
 
+@media (max-width: 1207px){
+	.left-line, .right-line{
+		display:none;
+	}	
+}
+
 ul.products-card, ul.reasons-card{
-	overflow:hidden;
-	margin:8px 0px;
-	padding:0px;
-	text-align: center;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-wrap: nowrap;
-	flex-wrap: nowrap;	
-}
-
-
-ul.products-card li, ul.reasons-card li{
-	list-style:none;
-	float:left;
-	margin: 2px;
-	width: 100%;
-	padding:4px 8px;
-	display: inline-block;
-	-webkit-flex: 1 0;	
-	flex: 1 0;
-	border:2px solid #f4e9e4;
+		overflow:hidden;
+		margin:8px 0px;
+		padding:0px;
+		text-align: center;	
+	}
 	
+	
+	ul.products-card li, ul.reasons-card li{
+		list-style:none;
+		float:left;
+		margin: 2px;
+		padding:4px 8px;
+		border:2px solid #f4e9e4;
+		
+	}
+
+@media (min-width: 768px){
+	ul.products-card, ul.reasons-card{
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;	
+	}
+	
+	
+	ul.products-card li, ul.reasons-card li{
+		display: inline-block;
+		-webkit-flex: 1 0;	
+		flex: 1 0;
+	}
 }
+
+@media (max-width: 768px){
+	ul.products-card li, ul.reasons-card li{
+		display: block;
+		
+	}
+}
+
+
 
 
 
