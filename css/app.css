@@ -133,11 +133,13 @@ ul.products-card, ul.reasons-card{
 @media (max-width: 768px){
 	ul.reasons-card li{
 		width:50%;
-		
 	}
 	ul.reasons-card li.even{
 		margin-right:-50%;
-		
+	}
+	
+	div.footer-info-wrapper > div.container, div.navbar-wrapper > .container{
+		padding:0px !important;
 	}
 }
 
