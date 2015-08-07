@@ -265,6 +265,3 @@ ul.footer-links li:nth-child(1){
 	border-left:none;
 }
 
-.bx-wrapper, .bx-viewport {
-    height: 450px !important; //provide height of slider
-}
