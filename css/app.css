@@ -98,8 +98,8 @@ ul.products-card, ul.reasons-card{
 	text-align: center;
 	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-wrap: wrap;
-	flex-wrap: wrap;	
+	-webkit-flex-wrap: nowrap;
+	flex-wrap: nowrap;	
 }
 
 
@@ -107,7 +107,7 @@ ul.products-card li, ul.reasons-card li{
 	list-style:none;
 	float:left;
 	margin: 2px;
-	width: 25%;
+	width: 100%;
 	padding:4px 8px;
 	display: inline-block;
 	-webkit-flex: 1 0;	
@@ -116,17 +116,7 @@ ul.products-card li, ul.reasons-card li{
 	
 }
 
-@media (max-width: 1207px){
-	ul.products-card li, ul.reasons-card li{
-		width: 25%;
-	}
-}
 
-@media (min-width: 750px){
-	ul.products-card li, ul.reasons-card li{
-		width: 100%;
-	}
-}
 
 ul.reasons-card{
 	margin:0px;
