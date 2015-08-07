@@ -19,7 +19,8 @@ requirejs.config({
 
 require(['jquery', 'bx_slider', 'bootstrap'], function($, bs){
 	$(function(){
-		$('.bxslider').bxSlider();
-		console.log('loaded!');
+		 $('.bxslider').bxSlider({
+	        auto: true
+	    });
 	});
 });
