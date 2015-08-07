@@ -17,6 +17,7 @@
     "angular": "~1.4.3",
     "bootstrap": "~3.3.5",
     "requirejs": "~2.1.20",
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "bxSlider": "~4.2.5"
   }
 }
