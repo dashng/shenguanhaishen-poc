@@ -110,8 +110,10 @@ ul.products-card, ul.reasons-card{
 		float:left;
 		margin: 2px;
 		padding:4px 8px;
-		border:2px solid #f4e9e4;
-		
+		border:1px solid #f4e9e4;
+		-moz-border-radius: 3px;
+  		-webkit-border-radius: 3px;
+  		border-radius: 3px;
 	}
 
 @media (min-width: 768px){
