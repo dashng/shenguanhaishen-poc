@@ -156,6 +156,15 @@ ul.products-card li, ul.reasons-card li{
 		width:100%;
 	}
 	
+	div.nav-top{
+		padding-top:28px;
+		padding-bottom:52px;
+	}
+	
+	ul.right-top-ul{
+		margin-right:0px !important;
+		margin-top:-28px !important;
+	}
 }
 
 ul.reasons-card{
@@ -282,3 +291,24 @@ ul.footer-links li:nth-child(1){
 	border-left:none;
 }
 
+ul.right-top-ul{
+	position:absolute;
+	top:0px;
+	right:0px;
+	margin:2px 35px;
+	color: #686868;
+}
+
+ul.right-top-ul li{
+	list-style:none;
+	float:left;
+	padding:0px 4px;
+	background:#e8e8e8;
+	
+}
+
+ul.right-top-ul > li > a{
+	color: #686868 !important;
+	background:#e8e8e8 !important;
+	font-size:14px;
+}
