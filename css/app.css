@@ -9,7 +9,7 @@ body *{
 	.slogan-wrapper > .container, 
 	.footer > .container, 
 	.footer-info-wrapper > .container{
-		width: 100% ;
+		width: 100%;
 		padding:0px;
 	}
 }
@@ -131,7 +131,7 @@ ul.products-card li, ul.reasons-card li{
 	}
 }
 
-@media (max-width: 1170px){
+@media (max-width: 1200px){
 	div.footer-info-wrapper > div.container, div.navbar-wrapper > .container{
 		padding:0px !important;
 		margin:0px !important;
@@ -262,8 +262,10 @@ hr.hualifengexian{
 }
 
 .footer-info{
-	
 	padding:0px;
+	height:auto;
+	background:#374754;
+	overflow:hidden;
 }
 
 .footer-info-wrapper{
@@ -274,21 +276,22 @@ ul.footer-links{
 	display:block;
 	margin:0px auto;
 	text-align:center;
+	padding-left:0px;
 }
 
 ul.footer-links li{
 	margin-left:-2px;
 	list-style:none;
 	margin-top:25px;
-	border-left:1px solid #fff;
 	font-size:16px;
-	padding:2px 18px;
+	padding:2px 10px;
 	color:#fff;
 	display:inline-block;
 }
 
-ul.footer-links li:nth-child(1){
-	border-left:none;
+ul.footer-links li a{
+	color:#fff;
+	padding-left:5px;
 }
 
 ul.right-top-ul{
@@ -311,4 +314,49 @@ ul.right-top-ul > li > a{
 	color: #686868 !important;
 	background:#e8e8e8 !important;
 	font-size:14px;
+}
+
+
+span.footer-copy{
+	max-width:600px;
+	display:block;
+	margin:0px auto;
+	text-align:left;
+	padding-left:21px;
+}
+
+.copy-info{
+	text-align:center;
+	margin-top:8px;
+	color:#999999;
+	margin-bottom:12px;
+}
+
+.container.footer-wrapper{
+	position:relative;
+	padding:0px;
+}
+
+.footer-left, .footer-right{
+	position:absolute;
+	top:15px;
+}
+
+.footer-left{
+	height:28px;
+	left:0px;
+}
+
+.footer-right{
+	height:52px;
+	right:0px;
+}
+
+@media (max-width: 1020px){
+	.footer-left, .footer-right{
+		position:static;
+		margin-top:15px;
+		margin-left:35px;
+	}
+	
 }
