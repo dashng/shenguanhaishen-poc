@@ -18,18 +18,28 @@ requirejs.config({
 });
 
 require(['jquery', 'bx_slider', 'bootstrap'], function($, bs){
+	function get_tmpl(urls){
+		$.each(urls, function(i, url){
+			$.ajax({
+		    	'url': url.url,
+		    	'type': 'GET',
+		    	'dataType': 'html',
+		    	'success': function(res){
+		    		url.wrapper[0]?url.wrapper.html(res):'';
+		    	} 
+		    })
+		});
+	};
 	$(function(){
+		get_tmpl([
+	              {'url': './header.html', 'wrapper': $('#navbar-wrapper')},
+	              {'url': './footer.html', 'wrapper': $('.footer_wrapper')},
+	    ]);
 		$.fn.bxSlider?$('.bxslider').bxSlider({
 	        auto: true
 	    }):null;
-	    $.ajax({
-	    	'url': './header.html',
-	    	'type': 'GET',
-	    	'dataType': 'html',
-	    	'success': function(res){
-	    		console.log(res);
-	    	} 
-	    })
+	    get_tmpl({}'./header.html');
+	    get_tmpl('./footer.html');
 		$('body').animate({
 			'opacity': 1.0
 		}, 800);
