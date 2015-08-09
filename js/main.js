@@ -22,8 +22,17 @@ require(['jquery', 'bx_slider', 'bootstrap'], function($, bs){
 		$.fn.bxSlider?$('.bxslider').bxSlider({
 	        auto: true
 	    }):null;
+	    $.ajax({
+	    	'url': '../header.html',
+	    	'type': 'GET',
+	    	'dataType': 'html',
+	    	'success': function(res){
+	    		console.log(res);
+	    	} 
+	    })
 		$('body').animate({
 			'opacity': 1.0
 		}, 800);
+		
 	});
 });
