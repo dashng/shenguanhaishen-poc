@@ -4,6 +4,10 @@ body *{
 	font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
 }
 
+body{
+	opacity:0.0;
+}
+
 @media (min-width: 1200px){
 	.navbar-wrapper > .container, 
 	.slogan-wrapper > .container, 

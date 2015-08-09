@@ -19,9 +19,9 @@ requirejs.config({
 
 require(['jquery', 'bx_slider', 'bootstrap'], function($, bs){
 	$(function(){
-		$('.bxslider').bxSlider({
+		$.fn.bxSlider?$('.bxslider').bxSlider({
 	        auto: true
-	    });
+	    }):null;
 		$('body').animate({
 			'opacity': 1.0
 		}, 800);
