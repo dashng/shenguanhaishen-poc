@@ -388,7 +388,7 @@ span.footer-copy{
 
 .menu > li>a{
 	padding-left:23px;
-	background: url(../images/menu_hover.png) 0px -12px no-repeat;
+	background: url(../images/menu_hover.png) 0px -12px repeat-x;
 }
 
 .menu a{
@@ -406,7 +406,7 @@ span.footer-copy{
 }
 
 .menu > li > a.menu_head{
-	background:url(../images/menu_head.png) 0px 0px no-repeat;
+	background:url(../images/menu_head.png) 0px 0px repeat-x;
 	color:#fff;
 }
 
