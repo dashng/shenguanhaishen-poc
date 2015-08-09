@@ -377,6 +377,11 @@ span.footer-copy{
 	padding-left:23px;
 }
 
+.menu_items > li.active{
+	background:#fff;
+	border-left:3px solid #1f8657;
+}
+
 .menu_items > li{
 	border-bottom:1px solid #e2e2e2;
 }
@@ -433,4 +438,8 @@ span.footer-copy{
 .detail-right-nav{
 	float:right;
 	
+}
+
+.detail-wrapper{
+	background:#ededed;
 }

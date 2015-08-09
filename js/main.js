@@ -38,6 +38,9 @@ require(['jquery', 'bx_slider', 'bootstrap'], function($, bs){
 		$.fn.bxSlider?$('.bxslider').bxSlider({
 	        auto: true
 	    }):null;
+	    $('.menu > li > a').on('click', function(){
+	    	$(this).closest('li').find('ul').slideToggle('slow');
+	    });
 		$('body').animate({
 			'opacity': 1.0
 		}, 800);
