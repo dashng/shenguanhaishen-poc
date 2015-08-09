@@ -23,7 +23,7 @@ require(['jquery', 'bx_slider', 'bootstrap'], function($, bs){
 	        auto: true
 	    }):null;
 	    $.ajax({
-	    	'url': '../header.html',
+	    	'url': './header.html',
 	    	'type': 'GET',
 	    	'dataType': 'html',
 	    	'success': function(res){
