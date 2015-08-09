@@ -33,7 +33,7 @@ require(['jquery', 'bx_slider', 'bootstrap'], function($, bs){
 	$(function(){
 		get_tmpl([
 	              {'url': './header.html', 'wrapper': $('#navbar-wrapper')},
-	              {'url': './footer.html', 'wrapper': $('.footer_wrapper')}
+	              {'url': './footer.html', 'wrapper': $('#footer_wrapper')}
 	    ]);
 		$.fn.bxSlider?$('.bxslider').bxSlider({
 	        auto: true
