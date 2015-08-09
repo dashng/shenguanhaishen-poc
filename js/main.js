@@ -38,8 +38,6 @@ require(['jquery', 'bx_slider', 'bootstrap'], function($, bs){
 		$.fn.bxSlider?$('.bxslider').bxSlider({
 	        auto: true
 	    }):null;
-	    get_tmpl({}'./header.html');
-	    get_tmpl('./footer.html');
 		$('body').animate({
 			'opacity': 1.0
 		}, 800);
