@@ -6,7 +6,7 @@ requirejs.config({
 	"baseUrl": "./",
 	
 	"paths": {
-		'jquery': 'bower_components/jquery/dist/jquery.min',
+		'jquery': 'bower_components/jquery/dist/jquery',
 		'bootstrap': 'bower_components/bootstrap/dist/js/bootstrap.min',
 		'bx_slider': 'bower_components/bxSlider/dist/jquery.bxslider.min'
 	},
