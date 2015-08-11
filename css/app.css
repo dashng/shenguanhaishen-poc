@@ -520,6 +520,12 @@ div.classification img{
 	color:#e7e7e7;
 }
 
+.p_list{
+	border:1px solid #ddd;
+	padding:8px;
+	margin-bottom:15px;
+}
+
 .p1_list img, .p2_list img{
 	width:100%;
 }
