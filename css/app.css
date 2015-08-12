@@ -449,6 +449,7 @@ span.footer-copy{
 
 .detail-wrapper{
 	background:#ededed;
+	overflow:hidden;
 }
 
 .qr_code_hide{
